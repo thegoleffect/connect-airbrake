@@ -1,1 +1,1 @@
-lib/connect-airbrake.js
+module.exports = require('./lib/connect-airbrake');

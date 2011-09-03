@@ -14,4 +14,4 @@ via npm
 	var Airbrake = require('connect-airbrake');
 	var server = connect.createServer(
 		Airbrake({ api_key: "" }),
-		);
+	);

@@ -8,11 +8,10 @@ Connect Airbrake is a middleware module for quickly setting up automatic Airbrak
 via npm
 
 	npm install connect-airbrake
-	
 
 ## Example
 
 	var Airbrake = require('connect-airbrake');
-  var server = connect.createServer(
-    Airbrake({ api_key: "" }),
-  );
+	var server = connect.createServer(
+		Airbrake({ api_key: "" }),
+		);
